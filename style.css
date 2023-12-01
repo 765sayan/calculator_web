@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border-style: solid;
+    border-width: 1px;
+    background-color: aquamarine;
+    height: max-content;
+    width: max-content;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;  
+}
+
+.btn {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    background-color: bisque;
+    margin: 1%;
+    padding: 1%;
+    height: 4rem;
+    width: 8rem;
+    box-shadow: 1px 1px 1px 1px;
+    font-size: 20px;
+}
+
+.btn-2 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    background-color: rgb(98, 240, 42);
+    margin: 1%;
+    padding: 1%;
+    height: 4rem;
+    width: 4rem;
+    box-shadow: 1px 1px 1px 1px;
+    font-size: 20px;
+}
+
+.btn-4 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    background-color: rgb(98, 240, 42);
+    margin: 1%;
+    padding: 1%;
+    height: 4rem;
+    width: 7rem;
+    box-shadow: 1px 1px 1px 1px;
+    font-size: 14px;
+}
+
+.btn:active {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.btn-2:active {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.btn-4:active {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.input {
+    width: 380px;
+    height: 4rem;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: bisque;
+    background-color: rgb(19, 165, 165);
+    box-shadow: 4px;
+    margin: 2%;
+    padding: 5%;
+    box-shadow: 1px 1px 1px 1px;
+    text-align: center;
+    font-size: 40px;
+    color: burlywood;
+    font-weight: 750;
+    transition-delay: 2ms;
+}
+
+
+.heading {
+    margin: 2%;
+    color: cadetblue;
+}
